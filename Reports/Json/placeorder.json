@@ -1,0 +1,150 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-29T12:20:56.088Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4475919500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User should login Flipkart application",
+        "description": "",
+        "id": "to-check-place-order-funtionality-in-flipkart;user-should-login-flipkart-application",
+        "after": [
+          {
+            "result": {
+              "duration": 212400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.After(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 461688800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters Into walnut section",
+            "match": {
+              "location": "Stepdefinition.user_enters_Into_walnut_section()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 768786400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User selects Farmley Cashews 500g",
+            "match": {
+              "arguments": [
+                {
+                  "val": "500",
+                  "offset": 29
+                }
+              ],
+              "location": "Stepdefinition.user_selects_Farmley_Cashews_g(Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2429316700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks Go to cart option",
+            "match": {
+              "location": "Stepdefinition.user_clicks_Go_to_cart_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1766584500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click Place order",
+            "match": {
+              "location": "Stepdefinition.user_click_Place_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 445031400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigates back",
+            "match": {
+              "location": "Stepdefinition.user_navigates_back()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340069200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Clicks Remove",
+            "match": {
+              "location": "Stepdefinition.user_Clicks_Remove()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 179523700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Your cart is empty page is displayed",
+            "match": {
+              "location": "Stepdefinition.your_cart_is_empty_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Flipkart"
+          }
+        ]
+      }
+    ],
+    "name": "To check place order funtionality in Flipkart",
+    "description": "",
+    "id": "to-check-place-order-funtionality-in-flipkart",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/Mukesh%20babu/eclipse-workspace/Assesment/src/test/resources/Feature/Flipkart.feature",
+    "tags": [
+      {
+        "name": "@Flipkart",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
