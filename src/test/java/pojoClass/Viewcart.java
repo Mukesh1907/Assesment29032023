@@ -27,7 +27,18 @@ public class Viewcart extends Baseclass{
 	
 	@FindBy(xpath = "//div[text()='Login to see the items you added previously']")
 	private WebElement dropped;
+	
+	@FindBy(xpath = "//img[@alt='Farmley Popular W400 Raw Kaju Cashews']")
+	private WebElement cashnewNut;
 
+
+	public WebElement getCashnewNut() {
+		return cashnewNut;
+	}
+
+	public void setCashnewNut(WebElement cashnewNut) {
+		this.cashnewNut = cashnewNut;
+	}
 
 	public WebElement getDropped() {
 		return dropped;

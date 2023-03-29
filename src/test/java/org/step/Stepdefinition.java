@@ -53,14 +53,12 @@ public void user_clicks_Go_to_cart_option() {
    addtocart a = new addtocart();
   WebElement addto = a.getAddto();
   addto.click();
+  Viewcart v = new Viewcart();
+  WebElement cashewnt = v.getCashnewNut();
+  Assert.assertEquals(true, cashewnt.isDisplayed() );
+  System.out.println("Item has been added succussfully");
 	 
-	 
-   Viewcart v = new Viewcart();
-   WebElement order = v.getOrder();
-  String o = order.getText();
-  System.out.println(o);
-  Assert.assertEquals("PLACE ORDER", o);
-  System.out.println("ITem has bees succussfully added to the cart");
+
 
 }
 @When("User click Place order")
@@ -87,9 +85,8 @@ public void your_cart_is_empty_page_is_displayed() {
 	Viewcart v = new Viewcart();
 	WebElement m = v.getDropped();
 
-	String messtex = m.getText();
-	System.out.println(messtex);
-	Assert.assertEquals("Login to see the items you added previously", messtex);
+	
+	Assert.assertEquals(true, m.isDisplayed());
 	
     System.out.println("Your cart is empty");
 }

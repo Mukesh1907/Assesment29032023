@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.89765">
-<testcase classname="To check place order funtionality in Flipkart" name="User should login Flipkart application" time="10.89765">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.41281">
+<testcase classname="To check place order funtionality in Flipkart" name="User should login Flipkart application" time="15.41281">
 <system-out><![CDATA[Given User enters Into walnut section.......................................passed
 When User selects Farmley Cashews 500g......................................passed
 And User clicks Go to cart option...........................................passed
